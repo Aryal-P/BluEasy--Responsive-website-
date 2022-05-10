@@ -1,0 +1,92 @@
+$fontwt:bold;
+$primary-color:#fcfcfc;
+$bg-color:#414b53;
+
+.container-global{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+// header section css//
+
+.header-section{
+    background-color: #424c53;
+    padding: 64px 0px;
+    width: 100%;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 1;
+
+
+    .navbar{
+        display: flex;
+        
+        .brand-name{
+            color: $primary-color;
+            a{
+                text-decoration: none;
+                color:white;
+               
+                // transition: .0.5s ease-in-out;
+            
+               
+            }
+           
+        }
+
+        }
+
+    ul{
+    display:  flex;
+    
+    list-style: none;
+
+     a{
+      
+        text-decoration: none;
+         padding: 10px 25px;
+        color: #fcfcfc;
+
+        // font{
+        //         size: 54px;
+        //         font-family: "Segoe UI";
+        // }
+        
+        }
+        a:hover{
+            border: 2px solid #4bcaff ;
+            color: #4bcaff;
+           
+
+        
+        }
+}
+}
+@import'banner.scss';
+
+@import'_services.scss';
+
+@import'_portfolio.scss';
+@import'default';
+@import'_twitter.scss';
+@import'_testimonials.scss';
+@import'_john-detail-section.scss';
+@import'_contact-section.scss';
+@import'_footer.scss';
+@import'responsive';
+@import'model';
+
+// .banner-section{
+//     @use 'service-section/services'
+// }
+
+main {
+    overflow: hidden;
+}

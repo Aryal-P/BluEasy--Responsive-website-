@@ -1,0 +1,27 @@
+@import'mixin.scss';
+
+.testimonial-section{
+    .testimonial-wrapper{
+        padding: 80px 0px;
+
+        .testimonial-head{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .line{
+
+         
+            @include underline;
+            background-color: black;
+        }
+        :nth-child(3){
+            padding: 40px 0px 20px 0px;
+        }
+
+        p{
+            font-family: 28px;
+
+        }
+    }
+}

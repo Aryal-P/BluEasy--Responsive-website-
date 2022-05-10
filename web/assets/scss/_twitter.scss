@@ -1,0 +1,37 @@
+@import'mixin.scss';
+.twitter-section{
+    background-color: #4bcaff;
+    color: $primary-color;
+
+    .twitter-content-wrapper{
+        padding: 77px 0px;
+
+        .line{
+            @include underline;
+            margin: 9px 0px 40px 0px;
+        }
+        p{
+            font-size: 28px;
+        }
+    }
+
+
+    .twitter-head{
+        display: flex;
+        justify-content: space-between;
+
+        h4{
+                font-size: 30px;
+                font-family: "Segoe UI";
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                // line-height: 0.8;
+                // text-align: left;
+        }
+
+        .fa{
+            color: $primary-color;
+            font-size: 30px;
+        }
+    }
+}

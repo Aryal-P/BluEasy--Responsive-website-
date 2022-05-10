@@ -1,0 +1,106 @@
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+
+
+@media(max-width: $md) {
+    .list-wrapper {
+        display: none;
+    }
+
+    .upper-wrapper {
+        .list-wrapper {
+            display: none;
+        }
+
+
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .service-section {
+        h2 {
+            padding-left: 10px;
+        }
+
+        .line {
+            margin-left: 10px;
+        }
+
+    }
+
+    .services {
+        padding: 0px 10px;
+    }
+
+    .portfolio-wrapper {
+        padding: 0px 10px;
+    }
+
+    .default-content {
+        padding-bottom: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+
+
+           .line{
+            margin-left: 10px;
+           }
+    }
+
+    .default-video {
+        padding-left: 20px;
+       
+        
+    }
+
+    .twitter-content-wrapper {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .john-content-wrapper {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .testimonial-wrapper {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .contact-wrapper {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .footer-wrapper {
+        margin: 0px 10px 0px 10px;
+    }
+.row{
+    img{
+        padding-bottom: 10px;
+    }
+}
+
+}
+
+@media(max-width:$sm) {
+    .footer-wrapper {
+        flex-direction: column;
+
+    }
+
+    .footer-list {
+        flex-direction: column;
+        border: none;
+        padding: 10px;
+
+
+    }
+
+    .John-detail-section .john-content-wrapper .icon-col .john-icon .fa{
+        margin-left: 0px;
+    }
+}
+
